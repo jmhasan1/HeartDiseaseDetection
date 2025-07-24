@@ -1,4 +1,5 @@
-streamlit
+streamlit = 
 scikit-learn = 1.5.1
 pandas
 numpy
+joblib
