@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 # Load the trained pipeline model
-with open('model/heart_pipeline.pkl', 'rb') as file:
+with open('heart_pipeline.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Streamlit App Title
