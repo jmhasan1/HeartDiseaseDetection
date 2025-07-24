@@ -3,8 +3,11 @@ import numpy as np
 import pickle
 
 # Load the trained pipeline model
+import joblib
+
 with open('heart_pipeline.pkl', 'rb') as file:
-    model = pickle.load(file)
+    model = joblib.load(file)
+
 
 # Streamlit App Title
 st.set_page_config(page_title="Heart Disease Predictor", layout="centered")
